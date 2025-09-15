@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+html, body, #root {
+  @apply h-full bg-neutral-100 text-neutral-900;
+}
+
+@media (prefers-color-scheme: dark) {
+  html, body, #root {
+    @apply bg-neutral-950 text-neutral-100;
+  }
+}
